@@ -3,3 +3,6 @@ Etape-01 :
     - Pour l'identifiant , j'ai chosie un numero soit (type int) car c'est plus facile pour les calculs et pour les recherches, et aussi pour l'indexation.
 
 
+Etape 02 : 
+    -Avec du texte libre, « cahier » et « cahiers » peuvent devenir deux rayons différents. Une table de catégories évite ce problème.
+    
