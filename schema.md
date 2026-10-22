@@ -12,3 +12,12 @@ CATEGORIE(**id_categorie**, nom)
 ARTICLE(**id_article**, article, prix, #id_categorie)
 VENTE(**id_vente**, date_vente) — (nouveau)
 LIGNE_VENTE(**#id_vente**, **#id_article**, quantite) — (nouveau)
+
+## Étape 4
+
+CATEGORIE(**id_categorie**, nom)
+ARTICLE(**id_article**, article, prix, #id_categorie)
+VENTE(**id_vente**, date_vente, #id_client?) — (modifié)
+LIGNE_VENTE(**#id_vente**, **#id_article**, quantite)
+TYPE_CLIENT(**id_type_client**, libelle) — (nouveau)
+CLIENT(**id_client**, nom, #id_type_client?) — (nouveau)

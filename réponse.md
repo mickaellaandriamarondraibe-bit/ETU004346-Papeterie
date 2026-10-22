@@ -9,3 +9,9 @@ Etape 02 :
 Etape 03 :
     - J'ai placé la quantité dans la table ligne_vente car elle est specifique à chaque article vendu dans une vente. 
     - Il ne faut pas appeler la colonne date_vente dans ligne_vente car , il y aura des repetition de date a chaque fois que nous ajoutons un article dans une vente. Donc il faut la mettre dans la table vente pour eviter les repetitions.
+
+Etape 04
+    - La clé étrangère vente.id_client ne doit pas être NOT NULL, car une vente à un client de passage n’a pas de client renseigner
+    - Il faut un LEFT JOIN de vente vers client pour conserver toutes les ventes, même celles dont id_client est NULL.
+
+    
